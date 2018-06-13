@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ArithmeticAlarmClock
 {
-	public partial class StartWindow : Form
+	public partial class CountDownView : Form
 	{
-		public StartWindow()
+		public CountDownView()
 		{
 			InitializeComponent();
-		}
-
-		private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-		{
-
 		}
 	}
 }

@@ -1,6 +1,6 @@
 ﻿namespace ArithmeticAlarmClock.View
 {
-	partial class ArithmeticQuestionWindow
+	partial class ArithmeticQuestionView
 	{
 		/// <summary>
 		/// Required designer variable.

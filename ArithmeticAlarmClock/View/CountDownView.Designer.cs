@@ -1,6 +1,6 @@
 ﻿namespace ArithmeticAlarmClock
 {
-	partial class CountDownWindow
+	partial class CountDownView
 	{
 		/// <summary>
 		/// Required designer variable.

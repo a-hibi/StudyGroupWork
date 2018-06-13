@@ -17,7 +17,7 @@ namespace ArithmeticAlarmClock
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new ArithmeticQuestionWindow());
+			Application.Run(new StartView());
 		}
 	}
 }

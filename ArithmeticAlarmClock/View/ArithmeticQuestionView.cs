@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ArithmeticAlarmClock.View
 {
-	public partial class ArithmeticQuestionWindow : Form
+	public partial class ArithmeticQuestionView : Form
 	{
-		public ArithmeticQuestionWindow()
+		public ArithmeticQuestionView()
 		{
 			InitializeComponent();
 		}

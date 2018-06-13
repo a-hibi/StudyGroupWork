@@ -69,34 +69,35 @@
   <ItemGroup>
     <Compile Include="Model\ArithmeticAlarmClock.cs" />
     <Compile Include="Model\ArithmeticQuestion.cs" />
-    <Compile Include="View\ArithmeticQuestionWindow.cs">
+    <Compile Include="ViewModel\StartViewModel.cs" />
+    <Compile Include="View\ArithmeticQuestionView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\ArithmeticQuestionWindow.Designer.cs">
-      <DependentUpon>ArithmeticQuestionWindow.cs</DependentUpon>
+    <Compile Include="View\ArithmeticQuestionView.Designer.cs">
+      <DependentUpon>ArithmeticQuestionView.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\CountDownWindow.cs">
+    <Compile Include="View\CountDownView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\CountDownWindow.Designer.cs">
-      <DependentUpon>CountDownWindow.cs</DependentUpon>
+    <Compile Include="View\CountDownView.Designer.cs">
+      <DependentUpon>CountDownView.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\StartWindow.cs">
+    <Compile Include="View\StartView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\StartWindow.Designer.cs">
-      <DependentUpon>StartWindow.cs</DependentUpon>
+    <Compile Include="View\StartView.Designer.cs">
+      <DependentUpon>StartView.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="View\ArithmeticQuestionWindow.resx">
-      <DependentUpon>ArithmeticQuestionWindow.cs</DependentUpon>
+    <EmbeddedResource Include="View\ArithmeticQuestionView.resx">
+      <DependentUpon>ArithmeticQuestionView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\CountDownWindow.resx">
-      <DependentUpon>CountDownWindow.cs</DependentUpon>
+    <EmbeddedResource Include="View\CountDownView.resx">
+      <DependentUpon>CountDownView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\StartWindow.resx">
-      <DependentUpon>StartWindow.cs</DependentUpon>
+    <EmbeddedResource Include="View\StartView.resx">
+      <DependentUpon>StartView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -108,6 +109,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\ArithmeticAlarmClock.ViewModel.StartViewModel.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -121,8 +123,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
